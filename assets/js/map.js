@@ -36,13 +36,15 @@ $(document).ready(function () {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
             var currentLocation = {
-                // lat: position.coords.latitude,
-                // lon: position.coords.longitude
+                lat: position.coords.latitude,
+                lon: position.coords.longitude,
                 name: '現在地',
                 description: 'あなたの現在地',
                 thumbnail: '../assets/img/currnet_pos.jpeg'
             };
             locations.push(currentLocation);
+            log(locations)
+            log(currentLocation)
 
             // 現在地を含む全てのロケーションにアイコンを追加
             addMarkers(locations);
