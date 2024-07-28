@@ -29,7 +29,7 @@ $(document).ready(function () {
         // { lat: 43.0621, lon: 141.3544 }  // 札幌
         { lat: 35.6895, lon: 139.6917, name: '東京', description: '日本の首都', thumbnail: '../assets/img/tokyo.jpg' },
         { lat: 34.6937, lon: 135.5023, name: '大阪', description: '日本の商業都市', thumbnail: '../assets/img/osaka.jpg' },
-        { lat: 43.0621, lon: 141.3544, name: '札幌', description: '北海道の中心都市', thumbnail: 'path/to/../assets/img/hokakido.jpg' }
+        { lat: 43.0621, lon: 141.3544, name: '札幌', description: '北海道の中心都市', thumbnail: '../assets/img/hokkaido.jpg' }
     ];
 
     // 現在地を取得してlocationsに追加
